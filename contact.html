@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="javascriptreat">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopee</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/4c346f6d48.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <section id="header">
+    <a href="index.html" class="logo"><img src="img/logo.png" width="80px" height="80px"></a>
+    <div>
+      <ul id="navbar">
+        <li><a  href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a  href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="#">Contact</a></li>
+        <li><a href="singup.html">Sing Up</a></li>
+        <li><a href="cart.html"><img src="img/icon.png" width="50px" height="50px"></a></li>
+      </ul>
+    </div>
+  </section>
+
+    <section id="page-header" class="about-header">
+      <h2><b>#let's_talk</b></h2>
+      <p><b>LEAVE A MESSAGE,We love to hear from you!</b></p>
+
+    </section>
+    <section id="contact-details" class="section-p1">
+      <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>visit one of our agency locations or contact us today</h2>
+        <h3>Head office</h3>
+        <div>
+          <li>
+            <i class="fa-regular fa-map"></i>
+            <p>56 Glassford street Glasgow G1 1UL New york</p>
+          </li>
+          <li>
+            <i class="far fa-envelope"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="fas fa-phone-alt"></i>
+            <p>contact@example.com</p>
+          </li>
+          <li>
+            <i class="far fa-clock"></i>
+            <p>Monday to Saturday: 9.00am to 16pm</p>
+          </li>
+        </div>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.8088029522896!2d-1.2569417240736684!3d51.75481969259935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversity%20of%20Oxford!5e0!3m2!1sen!2sin!4v1697098342981!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+    <section id="form-details">
+      <form action="">
+        <span><b>LEAVE A MESSAGE</b></span>
+        <h2>We love to hear from you</h2>
+        <input type="text" placeholder="Your name">
+         <input type="text" placeholder="E-mail">
+        <input type="text" placeholder="Subject">
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+        <button class="normal">Submit</button>
+      </form>
+      <div class="people">
+        <div>
+          <img src="img/people/1.png" alt="">
+          <p><span>Vivek sharma</span>FrontEnd/BackEnd Devloper<br>phone: (+91) 92 9999 8888<br>Email: vivek@sharma.com</p>
+        </div>
+        <div>
+          <img src="img/people/2.png" alt="">
+        <p><span>Vivek sharma</span>FrontEnd/BackEnd Devloper<br>phone: (+91) 92 9999 8888<br>Email: vivek@sharma.com</p>
+        </div>
+        <div>
+          <img src="img/people/3.png" alt="">
+          <p><span>Vivek sharma</span>FrontEnd/BackEnd Devloper<br>phone: (+91) 92 9999 8888<br>Email: vivek@sharma.com</p>
+        </div>
+      </div>
+    </section>
+
+  <section id="Newsletter" class="section-p1 section-m1">
+    <div clas="Newstext">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Your e-mail address">
+      <button class="normal"  onclick="GoToSingupPage()">Sign Up</button>
+    </div>
+  </section>
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="img/logo.png" width="80px" height="80px">
+      <h4>Contact</h4>
+      <p><strong>Adress:</strong> 567 pari choke, sector 62, Nodia India </p>
+      <p><strong>Phone:</strong> +01 2222 2222/(+91) 01 2222 2222</p>
+      <p><strong>Hours:</strong> 10:00 - 9:00, Mon - Sat</p>
+      <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f" onclick="facebook()"></i>
+          <i class="fa-brands fa-linkedin" onclick="linkedin()"></i>
+          <i class="fab fa-instagram" onclick="instagram()"></i>
+          <i class="fab fa-youtube" onclick="youtube()"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="about.html">about us</a>
+      <a href="contact.html">Delivery information</a>
+      <a href="about.html">privacy policy</a>
+      <a href="about.html">Terms & conditions</a>
+      <a href="contact.html">contact us</a>
+    </div>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">sign In</a>
+      <a href="cart.html">View cart</a>
+      <a href="cart.html">My wishlist</a>
+      <a href="contact.html">Track my order</a>
+      <a href="contact.html">Help</a>
+    </div>
+    <div class="col install">
+      <h4>Install app</h4>
+      <p>From app store or Google Play</p>
+      <div class="row">
+        <img src="img/pay/app.jpg" alt="">
+        <img src="img/pay/play.jpg" alt="">
+        <p>secured payment Gateway</p>
+
+      </div>
+      <img src="img/pay/pay.png" alt="">
+    </div>
+  </footer> 
+  <script src="script.js"></script>
+</body>
+
+</html> 
