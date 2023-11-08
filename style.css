@@ -1174,6 +1174,10 @@ form a {
     #header {
         padding: 10px 30px;
     }
+    #navbar{
+        width: 200px;
+        right: -200px;
+    }
 
     #Hero {
         padding: 0 20px;
