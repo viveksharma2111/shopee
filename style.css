@@ -1321,7 +1321,8 @@ form a {
      margin-right:0;
     }
     #singup-page .form-page {
-       width: 250px 
+       width: 250px;
+       margin-left: 5px; 
     }
     
 }    
