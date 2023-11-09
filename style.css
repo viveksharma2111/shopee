@@ -1320,5 +1320,8 @@ form a {
      .form-page {
      margin-right:0;
     }
+    #singup-page .form-page {
+       width: 250px 
+    }
     
 }    
