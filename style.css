@@ -853,6 +853,12 @@ footer a:hover {
 }
 
 /* cart page  */
+#cart{
+    overflow-x: auto;
+}
+/* #cart tbody td{
+    width: 80px;
+} */
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -1286,4 +1292,8 @@ form a {
     p {
       width: 100%; 
     }
+    #feature {
+        margin-left: 80px;
+    }
+    
 }    
