@@ -1168,7 +1168,17 @@ form a {
        /* Blog  */
     #page-header {
     height: 30vh;
-   }
+}
+   /* contact  */
+   .section-p1 {
+    padding: 40px 40px;
+   } 
+   #form-details {
+    padding: 40px;
+}
+#form-details form {
+    width: 50%;
+}
 }
 
 
@@ -1236,4 +1246,44 @@ form a {
     #blog .blog-details {
         width: 100%;
     }
-}
+    /* About  */
+    #about-head {
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+    #about-app .video {
+        width: 100%;
+    }
+    /* contact  */
+    #contact-details {
+       flex-direction: column; 
+    }
+    #contact-details .details {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #contact-details .map {
+        width: 100%;
+    }
+    #form-details {
+        margin: 10px;
+        padding:30px 10px ;
+        flex-wrap: wrap;
+    }
+    #form-details form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #form-details .people div {
+        padding-left: 30px;
+    }
+    p {
+      width: 100%; 
+    }
+}    
