@@ -1186,6 +1186,12 @@ form a {
 #cart{
     overflow-x: auto;
 }
+#singup-page {
+   /* flex-direction: column;  */
+}
+#vivek img{
+    display: none;
+ }
 }
 
 
@@ -1307,4 +1313,13 @@ form a {
     #Subtotal {
         width: 100%;
      }
+       /* singup page  */
+     #vivek img{
+        display: none;
+     }
+     .form-page {
+        
+     margin-right:0;
+    }
+    
 }    
