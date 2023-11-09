@@ -853,9 +853,9 @@ footer a:hover {
 }
 
 /* cart page  */
-/* #cart table{
-  overflow-x:auto;
-} */
+ #cart{
+  overflow-x: auto;
+}
 #cart table {
     width: 100%;
     border-collapse: collapse;
@@ -1296,7 +1296,15 @@ form a {
     #feature {
         margin-left: 60px;
     }
-    #cart{
-        overflow-x: auto;
+      /* cart page  */
+
+    #cart-add {
+      flex-direction: column;
     }
+    #coupon {
+        width: 100%;
+    }
+    #Subtotal {
+        width: 100%;
+     }
 }    
