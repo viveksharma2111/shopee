@@ -853,11 +853,8 @@ footer a:hover {
 }
 
 /* cart page  */
-#cart{
-    overflow-x: auto;
-}
-/* #cart tbody td{
-    width: 80px;
+/* #cart table{
+  overflow-x:auto;
 } */
 #cart table {
     width: 100%;
@@ -1185,6 +1182,10 @@ form a {
 #form-details form {
     width: 50%;
 }
+
+#cart{
+    overflow-x: auto;
+}
 }
 
 
@@ -1293,7 +1294,9 @@ form a {
       width: 100%; 
     }
     #feature {
-        margin-left: 80px;
+        margin-left: 60px;
     }
-    
+    #cart{
+        overflow-x: auto;
+    }
 }    
