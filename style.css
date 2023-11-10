@@ -860,7 +860,7 @@ footer a:hover {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 #cart table img {
@@ -1323,5 +1323,9 @@ form a {
     #singup-page .form-page {
        width: 250px;
     }
+    #cart table td:nth-child(5) input {
+        width: 50px;
+    }
     
+
 }    
